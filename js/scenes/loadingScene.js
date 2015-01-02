@@ -1,7 +1,7 @@
 console.log("loadingScene imported"); // just to be sure
 
 Crafty.scene("loadingScene", function() {
-  Crafty.load({"images": ["images/textures.png", "images/playButton.png"]},
+  Crafty.load({"images": ["images/textures.png", "images/playButton.png", "images/menuBackground.png"]},
     function() {        // onLoad
       setTimeout(function() {
         Crafty.scene("menuScene");

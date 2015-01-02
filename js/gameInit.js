@@ -18,7 +18,7 @@ $(document).ready(function() {
     floor2: [1, 0],
     floor3: [2, 0],
 
-    playerR: [1, 0],
+    playerR: [0, 1],
   });
 
   Crafty.sprite(196, 224, "images/playButton.png", {

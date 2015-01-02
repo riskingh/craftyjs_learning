@@ -9,7 +9,7 @@ Crafty.c("PlayButton", {
     this.requires("SpriteAnimation");
 
     this.bind("Click", function(MouseEvent) {
-      alert("click");
+      Crafty.scene("gameScene");
     });
 
     this.reel("changeColor", 0, 0, 0, 2); // white, cyan
