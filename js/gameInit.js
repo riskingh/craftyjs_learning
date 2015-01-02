@@ -21,7 +21,7 @@ $(document).ready(function() {
     playerR: [1, 0],
   });
 
-  Crafty.sprite(192, 224, "images/playButton.png", {
+  Crafty.sprite(196, 224, "images/playButton.png", {
     playButton1: [0, 0],
     playButton2: [1, 0],
   });
